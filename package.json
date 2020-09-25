@@ -4,6 +4,7 @@
   "description": "A template for scaffolding a local copy of online challenge problems",
   "main": "index.js",
   "scripts": {
+    "install": "./install-challenge.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -18,8 +18,9 @@ if [ $# -eq 0 ]; then
 fi
 
 # Check if directory already exsists 
-if [ -d "${1}" ] ; then
-    echo "Pick a new name: $1 already exsists!"
+if [[ -d "${1}" || -f "${1}" ]] ; then
+    echo "Pick a new directory!"
+    echo "$1 is already in use"
     exit 1
 fi
 
