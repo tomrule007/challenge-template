@@ -1,0 +1,22 @@
+{
+  "name": "challenge-template",
+  "version": "1.0.0",
+  "description": "A template for scaffolding a local copy of online challenge problems",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomrule007/challenge-template.git"
+  },
+  "keywords": [
+    "code-challenge"
+  ],
+  "author": "Thomas J. Herzog",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomrule007/challenge-template/issues"
+  },
+  "homepage": "https://github.com/tomrule007/challenge-template#readme"
+}
