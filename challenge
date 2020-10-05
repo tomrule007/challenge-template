@@ -8,7 +8,6 @@
 
 # Get script path
 SCRIPTPATH=$(dirname $(readlink -f "$0"))
-echo $SCRIPTPATH
 
 # Make sure parameter is provided
 if [ $# -eq 0 ]; then
