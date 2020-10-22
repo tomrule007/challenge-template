@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 #
 # This script is only valid for debian users
 # TODO: Check if already installed (ie path already contains scriptpath)
